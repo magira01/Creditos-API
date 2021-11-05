@@ -8,10 +8,10 @@
 		<version>2.5.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ar.com.ada.api</groupId>
-	<artifactId>creditos</artifactId>
+	<groupId>ar.com.ada.api.empleada</groupId>
+	<artifactId>empleadaapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>creditos</name>
+	<name>empleadaapi</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -35,6 +35,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency><groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.2.14</version>
 		</dependency>
 	</dependencies>
 
